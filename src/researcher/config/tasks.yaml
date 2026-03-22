@@ -1,0 +1,52 @@
+research_task:
+  description: >
+    Conduct a deep and exhaustive research on the topic: {topic}.
+    
+    Follow these steps methodically:
+    
+    1. Use MySearchTool to search Arxiv for academic papers, preprints, 
+       and peer-reviewed studies related to {topic}.
+    2. Use SerperDevTool to search the open web for latest news, blogs, 
+       expert opinions, and industry reports related to {topic}.
+    3. Cross-reference findings from both sources to identify patterns, 
+       key themes, and important data points.
+    4. Collect ALL raw findings without summarizing or filtering — 
+       preserve original data, stats, quotes, and source URLs.
+    5. Repeat searches with different query variations to ensure 
+       no important information is missed.
+
+  expected_output: >
+    A comprehensive set of raw research notes on {topic} containing:
+    
+    - **Academic Findings (Arxiv):**
+      - Paper titles, authors, publication dates
+      - Key claims, methodologies, and results
+      - Direct links or arxiv IDs for each paper
+    
+    - **Web Findings (Serper):**
+      - Article/blog titles and source names
+      - Key facts, statistics, and quotes
+      - Direct URLs for each source
+    
+    - **Cross-Source Observations:**
+      - Recurring themes found across both sources
+      - Contradictions or debates identified
+      - Gaps in current research or knowledge
+    
+    All notes must be raw and unfiltered — no summarization, 
+    no conclusions, just pure gathered data with full source attribution.
+  agent: research_agent
+  
+generate:
+  description: >
+    Generate a report on the given using {clean_text}.
+  expected_output: >
+    A full-fledged report in a markdown format which will later be converted to a pdf.
+    IMPORTANT:
+      It should be in a proper format.
+      The report should be detailed.
+      It should have citations of the previous researchers.
+      There should also be references in the report.
+      No extra thing other like date should be written.
+  agent: generate_report
+  output_file: final_report.md
