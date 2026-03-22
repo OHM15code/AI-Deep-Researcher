@@ -1,0 +1,104 @@
+# Impact of Artificial Intelligence on Animals
+
+Artificial Intelligence (AI) is rapidly transforming various domains, and its influence on animals is profound and multifaceted. From revolutionizing wildlife conservation and enhancing animal welfare to presenting complex ethical dilemmas and potential harms, AI's interaction with the animal kingdom necessitates detailed examination. This report synthesizes current academic findings and web-based insights to provide a comprehensive overview of AI's impact on animals.
+
+## AI for Wildlife Conservation and Monitoring
+
+AI plays a critical role in addressing the urgent need for large-scale wildlife monitoring, particularly in light of global biodiversity decline [Hernandez et al., 2024; Fergus et al., 2024]. Automated deep learning methods are proposed for processing vast amounts of data generated in wildlife monitoring efforts, overcoming challenges in applying these advanced methods in real-world conservation settings [Hernandez et al., 2024].
+
+Key applications in conservation include:
+*   **Species Detection and Classification**: AI leverages machine learning and computer vision to detect and classify wildlife, supporting conservation efforts [Fergus et al., 2024; WWF]. This includes detecting and tracking species in real-time from camera traps, acoustic recordings, and satellite imagery [WWF; Yale Environment 360].
+*   **Anti-Poaching Efforts**: AI software is being developed and deployed to thwart poachers, with potential for widespread implementation in protected areas worldwide [AAU.edu]. Conservation AI systems can also predict movements of wildlife and illegal hunters, acting as tools for improving anti-poaching strategies [Conbio.onlinelibrary.wiley.com].
+*   **Wildlife Density Estimation**: Unmanned aerial drones, combined with thermal (IR) imaging and other methods, are used to estimate wildlife density, offering a less labor-intensive and spatially constrained alternative to traditional methods like camera traps [Wohlfahrt et al., 2025].
+*   **Trajectory Generation**: AI facilitates long-horizon trajectory generation for wildlife, which is crucial for movement studies. These generated trajectories enrich training data for deep learning models and support simulation tasks in the wildlife domain [Al-Lawati et al., 2023].
+*   **Large-scale Data Processing**: AI's ability to process massive datasets quickly is considered a "game changer" for scientists and conservationists, enabling faster and smarter solutions to environmental challenges [Yale Environment 360; Ecological Society of Australia; British Veterinary Association]. This capability is leveraged to identify effective conservation solutions in response to the urgent biodiversity crisis [ScienceDirect].
+
+## AI for Animal Behavior Analysis and Welfare
+
+Understanding animal behaviors is significant for a variety of applications, though existing datasets often have limitations regarding animal classes, data samples, tasks, and environmental variations [Ng et al., 2022]. AI is revolutionizing this field:
+
+*   **Automated Behavior Analysis**: Researchers are rapidly developing Automated Behavior Analysis (ABA) strategies to detect a wide array of behaviors across diverse species [ScienceDirect; SCINet]. This includes using computer vision and AI to improve animal surveillance in settings like cattle processing facilities [CSIRO.au] and tracking individual animals using methods like QR codes and camera images [Utrecht University]. Advanced AI systems can identify specific animal behaviors with high accuracy across multiple species [NeuroscienceNews.com].
+*   **Collective Animal Behavior**: AI, alongside new sensing tools like automated tracking and drone recordings, is reshaping the study of collective animal behavior in large, cohesive groups (e.g., bird flocks, fish schools). This addresses the technical difficulty of obtaining 3D data and allows for the comparison of theoretical predictions with empirical observations [Cavagna et al., 2008a; Cavagna et al., 2008b; Phys.org]. The application of network theory to non-human social networks also benefits from AI, particularly in addressing the strength of associations between individuals and managing uncertainty [Lusseau et al., 2009].
+*   **Animal Welfare Assessment**: AI-based tools are bringing individualized welfare assessment, which could contribute to providing a good life for farm animals under human care [PubMed Central]. Smart farming, however, must ensure that efficiency does not compromise welfare [ScienceDirect]. AI-enhanced monitoring frameworks are designed to assist personnel in evaluating and maintaining animal welfare [PubMed Central].
+*   **Veterinary Medicine**: AI is transforming veterinary medicine by aiding in tasks such as reading X-rays, spotting early signs of disease, and optimizing treatments, potentially reducing reliance on medicines [The Conversation; British Veterinary Association; American Veterinary Medical Association]. Challenges in this area include the potential for AI products to produce false positive or false negative diagnoses [American Veterinary Medical Association].
+*   **Lab Animal Monitoring**: AI-powered 24/7 home-cage monitoring systems are being used to accelerate discovery, enhance reproducibility, and improve the well-being of lab animals [The-Scientist.com].
+
+## Ethical Considerations and Potential Harms
+
+Despite the promising benefits, the deployment of AI for animals raises significant ethical concerns, often going unnoticed and unregulated [LSE]. Prioritizing ethics and establishing clear guidelines on privacy and environmental impact are crucial [Melissa Cristina Márquez].
+
+Potential harms and ethical challenges include:
+*   **Unintentional Indirect Harms**: Generally beneficial AI can inadvertently harm animals. This can occur materially, such as through AI's carbon emissions, contributing to environmental degradation [Faunalytics; Springer].
+*   **Intentional Legal Harms**: AI technologies may be designed to harm animals in ways that society generally accepts, particularly in sectors like agriculture where AI might prioritize efficiency at the expense of animal welfare [Faunalytics; ScienceDirect].
+*   **Misinterpretations and Poor Application**: Poorly applied AI in animal welfare contexts could lead to misinterpretations or even direct harm [Animal Charity Evaluators]. In veterinary medicine, AI products could lead to false positive diagnoses, resulting in unnecessary interventions, or false negative results, delaying crucial care [American Veterinary Medical Association].
+*   **Distortion of Nature and Conservation Efforts**: The proliferation of AI-generated images and videos depicting fictitious animals poses significant challenges. This imagery can distort people's knowledge of animals, lead young people to believe in non-existent species, and ultimately distance humans from nature, potentially hindering genuine conservation efforts [Conservation Biology; Atmos].
+*   **Bias and Control**: AI systems may exhibit an "innate bias against animals" [Nautil.us]. Furthermore, maintaining meaningful human control over autonomous AI systems is a challenge, raising questions about moral responsibility attribution for AI actions [Siebert et al., 2021]. The impact of AI systems on user preferences and decisions, including human preferences regarding animal treatment, also requires understanding and management [Franklin et al., 2022].
+*   **Moral Alignment**: A complex debate exists around whether AI's moral alignment should include animals, and the potential implications for human welfare if significant weight is given to animal welfare by AI [Reddit r EffectiveAltruism].
+*   **Ethical Frameworks**: There is a clear need for ethical frameworks that integrate principles from diverse domains, including environmental ethics, animal ethics, AI ethics, and social justice [Prism.sustainability-directory.com]. Responsible AI deployment in conservation must also implement Indigenous data sovereignty principles and determine how to benefit Indigenous communities [Mongabay.com].
+
+## Challenges and Future Directions
+
+Several challenges and gaps in current knowledge highlight areas for future research and development:
+
+*   **Efficiency vs. Welfare Paradox**: A key contradiction lies in the potential for AI in smart farming to improve individualized animal welfare assessment while simultaneously posing a major threat if it prioritizes efficiency over welfare [ScienceDirect]. Balancing these competing objectives is crucial.
+*   **AI-Generated Content Dichotomy**: AI both enhances the understanding and monitoring of real animals for conservation and generates fictitious animal imagery that can distort public knowledge and distance people from nature [Conbio.onlinelibrary.wiley.com; Atmos]. Strategies to mitigate the negative impacts of AI-generated content on public perception and conservation are needed.
+*   **Regulatory and Legal Gaps**: The rapid advancements of AI mean that its significant impacts on animals are often "unnoticed and unregulated" [LSE]. There is a pressing need for legal frameworks and policies to protect animals from AI's evolving influences [The Conversation].
+*   **Practical Ethical Guidelines**: While many high-level ethical initiatives exist, there is a "Triple-Too" problem of principles being too abstract and lacking contextual application in research practices [Vision.cornell.edu]. This calls for the development of more practical, actionable, and context-specific ethical guidelines for AI's interaction with animals.
+*   **Addressing AI Bias**: The identified "innate bias against animals" in AI systems [Nautil.us] necessitates further research into its origins and the development of methodologies to mitigate or correct such biases.
+*   **Comprehensive Ethical Integration**: The need to integrate ethical principles from environmental ethics, animal ethics, AI ethics, and social justice into a cohesive and actionable framework for AI deployment is paramount [Prism.sustainability-directory.com].
+*   **Long-term Impacts**: While AI assists in monitoring, the long-term ecological and behavioral impacts of AI-driven interventions or AI-altered environments on animal populations remain an area for deeper exploration.
+
+## Conclusion
+
+Artificial Intelligence presents a powerful set of tools with immense potential to benefit animals, particularly in wildlife conservation, species monitoring, and enhancing animal welfare across various settings. Its capacity to process vast datasets and automate complex analyses offers unprecedented opportunities to address urgent environmental challenges and improve animal lives. However, this transformative power is accompanied by significant ethical responsibilities and potential harms. Unintended consequences, the risk of prioritizing efficiency over welfare, the distortion of nature through AI-generated content, and the complexities of moral alignment and human control demand careful consideration, robust ethical frameworks, and responsive regulation. Ensuring a future where AI genuinely benefits animals requires a coordinated, multidisciplinary research effort that prioritizes ethics, transparency, and accountability in its development and deployment.
+
+---
+
+## References
+
+*   Al-Lawati, A., Eshra, E., & Mitra, P. (2023). WildGEN: Long-horizon Trajectory Generation for Wildlife. *Arxiv*.
+*   American Association of Universities (AAU.edu). (n.d.). AI is for Animals: using Artificial Intelligence to prevent poaching. Retrieved from [AAU.edu](https://www.aau.edu/).
+*   American Veterinary Medical Association (AVMA.org). (n.d.). Artificial intelligence in veterinary medicine: What are the ethical and... Retrieved from [AVMA.org](https://www.avma.org/javma/artificial-intelligence-veterinary-medicine-what-are-ethical-and).
+*   American Veterinary Medical Association Journals (AVMAjournals.avma.org). (n.d.). Toward collaborative artificial intelligence development for animal... Retrieved from [AVMAjournals.avma.org](https://avmajournals.avma.org/view/journals/javma/261/S1/javma.23.08.0458.xml).
+*   Animal Charity Evaluators. (n.d.). The impacts of AI on animal advocacy. Retrieved from [Animal Charity Evaluators](https://animalcharityevaluators.org/blog/impacts-ai-animal-advocacy/).
+*   Atmos. (n.d.). AI-Generated Animals Are Distancing Us From Nature. Retrieved from [Atmos](https://www.atmos.com/ai-generated-animals-distancing-us-from-nature).
+*   British Veterinary Association (BVA.co.uk). (n.d.). BVA Congress: AI in Farms Is It Good for Vets and Animal Welfare? Retrieved from [BVA.co.uk](https://www.bva.co.uk/news-and-blog/news-article/bva-congress-ai-in-farms-is-it-good-for-vets-and-animal-welfare/).
+*   Cavagna, A., Giardina, I., Orlandi, A., Parisi, G., Procaccini, A., Viale, M., & Zdravkovic, V. (2008a). The STARFLAG handbook on collective animal behaviour: Part I, empirical methods. *Arxiv*.
+*   Cavagna, A., Giardina, I., Orlandi, A., Parisi, G., & Procaccini, A. (2008b). The STARFLAG handbook on collective animal behaviour: Part II, three-dimensional analysis. *Arxiv*.
+*   Conservation Biology (Conbio.onlinelibrary.wiley.com). (n.d.). Threats to conservation from artificial-intelligence-generated wildlife... Retrieved from [Conbio.onlinelibrary.wiley.com](https://conbio.onlinelibrary.wiley.com/doi/abs/10.1111/cobi.14152).
+*   Conservation Letters (Conbio.onlinelibrary.wiley.com). (n.d.). Navigating the Conservation Implications of Artificial Intelligence. Retrieved from [Conbio.onlinelibrary.wiley.com](https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/conl.12879).
+*   CSIRO.au. (n.d.). How AI is helping us understand animal behaviour. Retrieved from [CSIRO.au](https://www.csiro.au/en/news/news-releases/2023/how-ai-is-helping-us-understand-animal-behaviour).
+*   Ecological Society of Australia (Ecolsoc.org.au). (n.d.). Developing ethical and inclusive artificial intelligence for conservation. Retrieved from [Ecolsoc.org.au](https://www.ecolsoc.org.au/news/developing-ethical-and-inclusive-artificial-intelligence-for-conservation/).
+*   Faunalytics. (n.d.). How Might AI Harm Animals? Retrieved from [Faunalytics](https://faunalytics.org/how-might-ai-harm-animals/).
+*   Fergus, P., Chalmers, C., Longmore, S., & Wich, S. (2024). Harnessing Artificial Intelligence for Wildlife Conservation. *Arxiv*.
+*   Franklin, M., Ashton, H., Gorman, R., & Armstrong, S. (2022). Recognising the importance of preference change: A call for a coordinated multidisciplinary research effort in the age of AI. *Arxiv*.
+*   Hernandez, A., Miao, Z., Vargas, L., Beery, S., Dodhia, R., Arbelaez, P., & Lavista Ferres, J. M. (2024). Pytorch-Wildlife: A Collaborative Deep Learning Framework for Conservation. *Arxiv*.
+*   Link.springer.com (Springer). (n.d.). Harm to Nonhuman Animals from AI: a Systematic Account and... Retrieved from [Link.springer.com](https://link.springer.com/chapter/10.1007/978-3-031-48777-6_11).
+*   London School of Economics (LSE). (n.d.). How AI is helping - and harming - animals. Retrieved from [LSE](https://blogs.lse.ac.uk/businessreview/2023/12/06/how-ai-is-helping-and-harming-animals/).
+*   Lusseau, D., Whitehead, H., & Gero, S. (2009). Incorporating uncertainty into the study of animal social networks. *Arxiv*.
+*   Melissa Cristina Márquez (Substack). (n.d.). AI in Wildlife Conservation. Retrieved from [Melissa Cristina Márquez](https://melissacristinamarquez.substack.com/p/ai-in-wildlife-conservation).
+*   Meegle.com. (n.d.). AI Ethics And Wildlife Protection. Retrieved from [Meegle.com](https://meegle.com/ai-ethics-and-wildlife-protection/).
+*   Mongabay.com. (n.d.). AI-centered conservation efforts can only be ethical if Indigenous... Retrieved from [Mongabay.com](https://news.mongabay.com/2024/02/ai-centered-conservation-efforts-can-only-be-ethical-if-indigenous-communities-lead-them-commentary/).
+*   Moore, R. K. (2025). What Needs to be Known in Order to Perform a Meaningful Scientific Comparison Between Animal Communications and Human Spoken Language. *Arxiv*.
+*   Nautil.us. (n.d.). AI's Innate Bias Against Animals. Retrieved from [Nautil.us](https://nautil.us/ais-innate-bias-against-animals-434005/).
+*   NeuroscienceNews.com. (n.d.). AI "Mind Control" Can Stop Animal Behaviors in a Split Second. Retrieved from [NeuroscienceNews.com](https://neurosciencenews.com/ai-mind-control-behavior-24835/).
+*   Ng, X. L., Ong, K. E., Zheng, Q., Ni, Y., Yeo, S. Y., & Liu, J. (2022). Animal Kingdom: A Large and Diverse Dataset for Animal Behavior Understanding. *Arxiv*.
+*   Phys.org. (n.d.). How AI and new sensing tools are reshaping collective animal... Retrieved from [Phys.org](https://phys.org/news/2023-01-ai-tools-reshaping-collective-animal.html).
+*   Prism.sustainability-directory.com. (n.d.). Ethical Frameworks for AI-Driven Wildlife Conservation Scenario. Retrieved from [Prism.sustainability-directory.com](https://prism.sustainability-directory.com/ethical-frameworks-for-ai-driven-wildlife-conservation-scenarios-a-holistic-approach/).
+*   PubMed Central (PMC). (n.d.). AI for One Welfare: the role of animal welfare scientists in... Retrieved from [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10178358/).
+*   PubMed Central (PMC). (n.d.). Mind the Step: An Artificial Intelligence-Based Monitoring Platform... Retrieved from [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8956961/).
+*   Reddit (r EffectiveAltruism). (n.d.). What if AI Moral Alignment Included Animals? Retrieved from [Reddit](https://www.reddit.com/r/EffectiveAltruism/comments/16d3y7a/what_if_ai_moral_alignment_included_animals/).
+*   Salk Institute. (n.d.). Unleashing the power of AI to track animal behavior. Retrieved from [Salk Institute](https://www.salk.edu/news-release/unleashing-the-power-of-ai-to-track-animal-behavior/).
+*   SCINet (USDA). (n.d.). Animal Behavior AI Working Group SCINet. Retrieved from [SCINet](https://www.scinet.usda.gov/working-groups/animal-behavior-ai).
+*   ScienceDirect. (n.d.). Smart farming and Artificial Intelligence (AI): How can we ensure that... Retrieved from [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S156801492300080X).
+*   ScienceDirect. (n.d.). The potential for AI to revolutionize conservation: a horizon scan. Retrieved from [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S000632072300185X).
+*   ScienceDirect. (n.d.). The quest to develop automated systems for monitoring animal... Retrieved from [ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S016815912300140X).
+*   Siebert, L. C., Lupetti, M. L., Aizenberg, E., Beckers, N., Zgonnikov, A., Veluwenkamp, H., Abbink, D., Giaccardi, E., Houben, G.-J., Jonker, C. M., van den Hoven, J., Forster, D., & Lagendijk, R. L. (2021). Meaningful human control: actionable properties for AI system development. *Arxiv*.
+*   The Conversation (Findanexpert.unimelb.edu.au). (n.d.). Animals in the machine: why the law needs to protect animals from AI. Retrieved from [The Conversation](https://findanexpert.unimelb.edu.au/news/5837-animals-in-the-machine:-why-the-law-needs-to-protect-animals-from-ai).
+*   The-Scientist.com. (n.d.). AI-Powered Tech Enables Continuous Lab Animal Monitoring. Retrieved from [The-Scientist.com](https://www.the-scientist.com/notebook/ai-powered-tech-enables-continuous-lab-animal-monitoring-70804).
+*   Utrecht University (UU.nl). (n.d.). With AI, we can monitor animal behaviour and welfare more effectively. Retrieved from [UU.nl](https://www.uu.nl/en/news/with-ai-we-can-monitor-animal-behaviour-and-welfare-more-effectively).
+*   Vision.cornell.edu. (n.d.). Towards Ethical Deployment of AI for Conservation Systems (PDF). Retrieved from [Vision.cornell.edu](https://vision.cornell.edu/seblab/papers/Arxiv_AI_ethics_conservation_2023.pdf).
+*   Wohlfahrt, S., Praschl, C., Leitner, H., Jantsch, W., Konic, J., Schueler, S., Stöckl, A., & Schedl, D. C. (2025). Advancing Wildlife Monitoring: Drone-Based Sampling for Roe Deer Density Estimation. *Arxiv*.
+*   World Wildlife Fund (WWF). (n.d.). Artificial intelligence and conservation. Retrieved from [WWF](https://www.worldwildlife.org/initiatives/artificial-intelligence-and-conservation).
+*   Yale Environment 360. (n.d.). Out of the Wild: How A.I. Is Transforming Conservation Science. Retrieved from [Yale Environment 360](https://e360.yale.edu/features/ai-artificial-intelligence-conservation-wildlife-tracking-data).
+*   Zhong, E., del-Blanco, C. R., Berjón, D., Jaureguizar, F., & García, N. (2025). AnimalMotionCLIP: Embedding motion in CLIP for Animal Behavior Analysis. *Arxiv*.
