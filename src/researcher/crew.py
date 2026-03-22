@@ -21,6 +21,10 @@ class Researcher():
 
     agents_config = "config/agents.yaml"
     tasks_config  = "config/tasks.yaml"
+    output_path   = "report.md" # Default
+
+    def __init__(self, output_path="report.md"):
+        self.output_path = output_path
 
     @agent
     def research_agent(self) -> Agent:
@@ -47,7 +51,7 @@ class Researcher():
     def generate(self) -> Task:
         return Task(
             config=self.tasks_config['generate'],
-            output_file='report.md'
+            output_file=self.output_path
         )
 
     @crew

@@ -8,6 +8,12 @@ from researcher.crew import Researcher, extract_clean_context
 from researcher.pdf_generator import convert_md_to_pdf
 from crewai import Crew, Process
 
+# Vercel Compatibility: Only /tmp is writable in serverless functions
+IS_VERCEL = os.environ.get("VERCEL") == "1"
+BASE_DIR = "/tmp" if IS_VERCEL else os.getcwd()
+REPORT_MD = os.path.join(BASE_DIR, "report.md")
+REPORT_PDF = os.path.join(BASE_DIR, "report.pdf")
+
 app = FastAPI(title="AI Researcher API")
 
 # Enable CORS for frontend interaction
@@ -37,7 +43,7 @@ def run_research_task(topic: str):
         current_status["message"] = f"Researching: {topic}..."
         
         inputs = {"topic": topic}
-        r = Researcher()
+        r = Researcher(output_path=REPORT_MD)
 
         # ── Crew 1: Research ──────────────────────────────────
         research_crew = Crew(
@@ -62,7 +68,7 @@ def run_research_task(topic: str):
 
         # ── PDF Generation ─────────────────────────
         current_status["message"] = "Converting to PDF..."
-        convert_md_to_pdf("report.md", "report.pdf")
+        convert_md_to_pdf(REPORT_MD, REPORT_PDF)
         
         current_status["status"] = "completed"
         current_status["message"] = "Research completed successfully!"
@@ -84,7 +90,7 @@ async def get_status():
 
 @app.get("/download")
 async def download_pdf():
-    pdf_path = "report.pdf"
+    pdf_path = REPORT_PDF
     if not os.path.exists(pdf_path):
         raise HTTPException(status_code=404, detail="PDF not found. Please run research first.")
     return FileResponse(pdf_path, media_type="application/pdf", filename="research_report.pdf")
